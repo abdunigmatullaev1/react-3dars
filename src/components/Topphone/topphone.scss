@@ -1,0 +1,36 @@
+.topphone{
+    max-width: 390px;
+    padding-top: 15.33px;
+    padding-bottom: 15.33px;
+    background-color: #f9f9f9;
+
+    &__con{
+        display: flex;
+        padding: 0;
+        gap: 202px;
+        justify-content: space-between;
+        align-items: center;
+
+        h3{
+            width: 33px;
+            font-family: 'roboto';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15.66px;
+            line-height: 19px;       
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: -0.28px; 
+            color: #000000;
+        }
+        ul{
+            li{
+
+                img{
+                    margin-right: 6px;
+                }
+            }
+        }
+    }
+}

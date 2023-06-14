@@ -1,0 +1,53 @@
+.hero{
+    background: #606060;
+    padding: 10px;
+    max-width: 390px;
+
+
+    &__con{
+
+        justify-content: space-between;
+        gap: 40px;
+        display: flex;
+
+        p{
+            font-family: 'roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
+        }
+
+        form{
+            height: 20px;
+            display: flex;
+            align-items: center;
+
+            img{
+                margin-right: 8px;
+            }
+
+            select{
+                border: none;
+                font-family: 'roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 14px;
+                display: flex;
+                align-items: center;      
+                color: #FFFFFF;
+                background-color: #606060;
+                color: #FFFFFF;
+                option{
+                    border-radius: 3px;
+                    background-color: #606060;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}

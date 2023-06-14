@@ -1,0 +1,32 @@
+.karusel{
+    width: 390px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+
+    &__con{
+        max-width: 370px;
+    }
+   
+}
+.karusel__box {
+    width: 280px;
+    height: 320px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: grey;
+
+
+
+    h3{
+        padding-top: 260px;
+        font-family: 'roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        width: 240px;
+        display: flex;
+        align-items: center;        
+        color: #000000;
+    }
+}
